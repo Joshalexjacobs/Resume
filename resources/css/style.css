@@ -31,7 +31,9 @@ html {
 /* ------------------------------------- */
 
 .col {
-    display: block;
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
 }
 
 .row {
