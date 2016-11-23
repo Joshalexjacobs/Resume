@@ -30,6 +30,10 @@ html {
 /* Reusable Components */
 /* ------------------------------------- */
 
+.col {
+    display: block;
+}
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
