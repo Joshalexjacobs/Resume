@@ -28,6 +28,10 @@
         width: 80%;
     }
     
+    header h1 {
+        font-size: 250%;
+    }
+    
     /* About Me */
     
     .section-aboutme .icon-big {display: none;}
