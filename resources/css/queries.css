@@ -1,0 +1,98 @@
+@media only screen and (max-width: 767px) {
+ 
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0%;
+    }
+    
+    .main-nav { display: none; }
+    
+    h1 { font-size: 180% }
+    h2 { font-size: 150% }    
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
+    section { 
+        padding: 25px 0; 
+    }
+    
+    /* Header */
+    .name { padding-left: 8%; }
+    
+    .hero-text-box {
+        padding-left: 8%;
+        width: 80%;
+    }
+    
+    /* About Me */
+    
+    .section-aboutme .icon-big {display: none;}
+    
+    /* Education */
+    
+    .section-education .icon-big {
+        font-size: 150%;
+        padding: 2%;
+    }
+    
+    .section-education h4 {
+        padding: 2%;
+    }
+    
+    .section-education p {
+        padding: 2%;
+    }
+    
+    /* Experience */
+    
+    .section-experience h4 {
+        padding: 2%;
+    }
+    
+    .section-experience p {
+        padding: 2%;
+    }
+    
+    /* Skills */
+    
+    .section-skills h2 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .section-skills h4{
+        display: none;
+    }
+    
+    .section-skills li {
+        padding: 1%;
+    }    
+    
+    .section-skills ul {
+        padding: 0;
+    }
+    
+    /* Portfolio */
+    
+    .section-portfolio img {
+        width: 320px;
+        height: 250px;
+    }
+    
+    .section-portfolio .icon-small {
+        display: none;
+    }
+    
+    /* Contact */
+    
+    .section-contact a {
+        display: none;
+        
+    }
+    
+    .section-contact h3 {
+        font-size: 120%;
+    }
+}

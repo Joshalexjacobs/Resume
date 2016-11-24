@@ -183,9 +183,12 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
+/*
 .hero-text-box h1:after {
     content: ' ';
     display: block;
@@ -193,6 +196,7 @@ header {
     margin: 5px auto 5px 0px;
     border: 1px solid #fff;
 }
+*/
 
 .name {
     height: 100px;
