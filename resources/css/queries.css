@@ -21,7 +21,10 @@
     }
     
     /* Header */
-    .name { padding-left: 8%; }
+    .name { 
+        padding: 0;
+        padding-left: 12%;
+    }
     
     .hero-text-box {
         padding-left: 8%;

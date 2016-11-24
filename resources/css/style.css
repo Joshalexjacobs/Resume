@@ -68,12 +68,16 @@ html {
     margin-top: 10px;   
 }
 
+.icon-linkedin {
+    padding: 10%;
+}
+
 a:link .icon-linkedin,
 a:visited .icon-linkedin {
     color: #fff;
-    font-size: 350%;   
+    font-size: 300%;   
     display: block;
-    margin-top: 10px;   
+    margin-top: 10px;  
 }
 
 a:hover .icon-linkedin,
