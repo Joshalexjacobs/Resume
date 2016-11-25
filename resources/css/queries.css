@@ -20,6 +20,11 @@
         padding: 25px 0; 
     }
     
+    .col {
+        display: block;
+        float:left;
+    }    
+    
     /* Header */
     .name { 
         padding: 0;
