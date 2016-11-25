@@ -23,8 +23,9 @@
     .col {
         display: block;
         float:left;
+        margin: 0;
     }    
-    
+ 
     /* Header */
     .name { 
         padding: 0;
