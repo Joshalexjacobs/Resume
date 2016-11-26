@@ -1,5 +1,122 @@
 /* 481 - 767px width */
 @media only screen and (max-width: 767px) {
+    .col {
+        display: block;
+        width: 100%;
+        margin: 0 0 4% 0%;  
+    }    
+    
+    section { 
+        padding: 25px 0; 
+    }    
+    
+    /* Header */
+    
+    .name {
+        text-align: center;
+        width: 100%;
+    }
+
+    
+    .hero-text-box {
+        text-align: center;
+        width: 90%;
+        margin: 1%;
+    }
+    
+    header h1 {
+        font-size: 350%;
+    }
+    
+    /* About Me */
+    
+    .section-aboutme .icon-big {display: none;}
+
+    /* Education */
+    
+    .section-education {
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+    
+    .section-education .icon-big {
+        font-size: 240%;
+        padding: 1%;
+    }
+    
+    .section-education h4 {
+        padding: 1%;
+    }
+    
+    .section-education p {
+        padding: 1%;
+    }    
+    
+    /* Experience */
+    
+    .section-experience h4 {
+        padding: 2%;
+    }
+    
+    .section-experience p {
+        padding: 2%;
+    }    
+    
+    /* Skills */
+    
+    .section-skills h2 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .section-skills h4{
+        display: none;
+    }
+    
+    .section-skills li {
+        padding: 1%;
+    }    
+    
+    .section-skills ul {
+        padding: 0;
+    }
+    
+    /* Portfolio */
+    
+    .section-portfolio img {
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    
+    .section-portfolio .clearfix {
+        width: 100%;
+    }
+    
+    .section-portfolio .icon-small {
+        display: none;
+        height: 0;
+    }
+
+    /* Contact */
+    
+    .section-contact .span-1-of-12 {
+        width: 33.3%;
+        text-align: center;
+    }
+    
+    .section-contact .span-1-of-4 {
+        height: 0;
+    }
+    
+    .section-contact a {
+        margin: auto;
+    }
+    
+    .section-contact h3 {
+        font-size: 190%;
+    }    
+    
     /*
     .col { 
         width: 100%; 
@@ -27,18 +144,23 @@
     }    
  
     /* Header */
-    .name { 
-        padding: 0;
-        padding-left: 12%;
+    .name {
+        text-align: center;
+        width: 100%;
     }
     
     .hero-text-box {
-        padding-left: 8%;
-        width: 80%;
+        text-align: center;
+        margin: 1%;
+        width: 70%;
     }
     
     header h1 {
         font-size: 250%;
+    }
+    
+    header p {
+        font-size: 80%;
     }
     
     /* About Me */
@@ -92,7 +214,7 @@
     /* Portfolio */
     
     .section-portfolio img {
-        margin-left: 3%;
+        margin: auto;
         width: 300px;
         height: 230px;
     }
@@ -103,9 +225,17 @@
     
     /* Contact */
     
-    .section-contact a {
-        display: none;
+    .section-contact .span-1-of-12 {
+        width: 33.3%;
+        text-align: center;
         
+    }    
+    .section-contact .span-1-of-4 {
+        margin: 2%;
+    }
+    .section-contact a {
+        padding: 5px;
+        margin: auto;
     }
     
     .section-contact h3 {

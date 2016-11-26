@@ -204,9 +204,9 @@ header {
 
 .name {
     height: 100px;
-    widows: auto;
+    width: auto;
     float: left;
-    margin: 20px 0 0 5px; 
+    margin: 0;
 }
 
 /* ------------------------------------- */
