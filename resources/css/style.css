@@ -345,23 +345,16 @@ header {
 .section-contact {
     background: linear-gradient(to bottom, #26698b 0%, rgba(81,172,205,1) 100%);
     background-size: cover;
-    background-position: center;    
-    background-attachment: fixed;    
+    background-position: center;
+    background-attachment: fixed;
 }
 
-/* ------------------------------------- */
-/* Footer */
-/* ------------------------------------- */
-
-footer {
-    display: block;
-    border: 1px solid rgba(81,172,205,1);
-    background: rgba(81,172,205,1);
-    background-size: cover;
-    background-position: center;    
-    background-attachment: fixed;    
+.section-contact h3 a:link,
+.section-contact h3 a:visited {
+    color: #fff;
 }
 
-/*
-
-*/
+.section-contact h3 a:hover,
+.section-contact h3 a:active {
+    color: #dddddd;
+}
